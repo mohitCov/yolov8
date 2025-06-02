@@ -1,0 +1,6 @@
+train: F:/YOLOmodification/datasets/KITTI_Dataset/dataset/train/images  # path to training images
+val: F:/YOLOmodification/datasets/KITTI_Dataset/dataset/val/images    # path to validation images
+train_labels: F:/YOLOmodification/datasets/KITTI_Dataset/dataset/train/labels_yolo  # path to training labels
+val_labels: F:/YOLOmodification/datasets/KITTI_Dataset/dataset/val/labels_yolo    # path to validation labels
+nc: 8  # number of classes
+names: ['Car', 'Pedestrian', 'Van', 'Cyclist', 'Person_sitting', 'Misc', 'Truck', 'Tram']  # class names 
